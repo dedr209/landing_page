@@ -3,68 +3,105 @@
 <head>
     <meta charset="UTF-8">
     <title>Persona</title>
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
+
+
 <header>
-    <nav>
-        <div>Header Logo</div>
-        <ul>
-            <li><a href="#">header link one</a></li>
-            <li><a href="#">header link two</a></li>
-            <li><a href="#">header link three</a></li>
-        </ul>
-    </nav>
+    <div class="container">
+        <nav class="navbar">
+            <div class="logo">Header Logo</div>
+            <ul class="nav-links">
+                <li><a href="#">header link one</a></li>
+                <li><a href="#">header link two</a></li>
+                <li><a href="#">header link three</a></li>
+            </ul>
+        </nav>
+    </div>
 </header>
 <section class="hero">
     <div class="container">
-        <h1>This website is awesome</h1>
-        <p>This website has some subtext that goes here under the main title.It's a smaller font and the color is lower
-            contrast</p>
-        <button class="registration-button">Sign up</button>
+        <div class="wrapper">
+            <div class="hero-text">
+                <h1>This website is awesome</h1>
+                <p>This website has some subtext that goes here under the main title.It's a smaller font and the color
+                    is
+                    lower
+                    contrast</p>
+                <button class="sign-up-button">Sign up</button>
+            </div>
+            <img src="img/man-1282232_1280.jpg" alt="man that demonstrate a power">
+        </div>
     </div>
-    <img src="img/man-1282232_1280.jpg" alt="man that demonstrate a power">
 </section>
 <section class="demonstration-achievements">
-    <h2>Some random information.</h2>
     <div class="container">
-        <div>
-            <img src="" alt="">
-            <p></p>
-        </div>
-        <div>
-            <img src="" alt="">
-            <p></p>
-        </div>
-        <div>
-            <img src="" alt="">
-            <p></p>
-        </div>
-        <div>
-            <img src="" alt="">
-            <p></p>
+        <div class="wrapper">
+            <h2 class="achievements-info">Some random information.</h2>
+            <div class="memes-cards">
+                <div class="card">
+                    <img src="img/equality.jpg" alt="equality">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus aliquid aperiam asperiores
+                        atque
+                        beatae, consequatur dicta dignissimos doloremque error exercitationem explicabo fugit natus quia
+                        quibusdam sapiente suscipit voluptatibus! Error, hic?</p>
+                </div>
+                <div class="card">
+                    <img src="img/chill-guy.jpg" alt="without worries">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. At, distinctio, eligendi eveniet fugit,
+                        id
+                        iusto odio pariatur quam quo quod rerum sequi suscipit temporibus. Aliquid animi harum modi sed.
+                        Dolores.</p>
+                </div>
+                <div class="card">
+                    <img src="img/michael-the-best.jpg" alt="without worries">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores assumenda cum et explicabo
+                        facere
+                        non obcaecati officia repellendus similique! Adipisci architecto expedita fuga magni natus nisi
+                        officia
+                        porro quaerat suscipit!</p>
+                </div>
+                <div class="card">
+                    <img src="img/special-flowers.jpg" alt="just receive present">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum dolorem facilis in libero natus
+                        numquam
+                        placeat quaerat quisquam sed sint, tempore, totam? Ab fugiat id, inventore officia quaerat
+                        sapiente!
+                        Quaerat.</p>
+                </div>
+            </div>
         </div>
     </div>
 </section>
-<section>
+<section class="quote-section">
     <div class="container">
-        <p>He who is not courageous enough to take risks will accomplish nothing in life.</p>
-        <p class="quote-author">-Muhammad Ali</p>
-    </div>
+        <div class="wrapper">
+            <p class="quote-text">He who is not courageous enough to take risks will accomplish nothing in life.
+                <span class="quote-author">-Muhammad Ali</span></p>
 
+        </div>
+    </div>
 </section>
 <section class="feedback">
     <div class="container">
-        <div class="feedback-text">
-            <p class="action">Call to action! It's time!</p>
-            <p>Sign up for our product by clicking that button right over there!</p>
+        <div class="wrapper">
+            <div class="feedback-text">
+                <p class="challenge-headline">Call to action! It's time!</p>
+                <p class="challenge-description">Sign up for our product by clicking that button right over there!</p>
+            </div>
+            <button class="sign-up-button bordered">Sign up</button>
         </div>
-        <button class="registration-button">Sign up
-
-        </button>
     </div>
 </section>
 <footer>
-    <p>Copyright The Odin Project 2025</p>
+    <div class="container">
+        <div class="wrapper">
+            <div>
+                <p>Copyright The Odin Project 2025</p>
+            </div>
+        </div>
+    </div>
 </footer>
 </body>
 </html>
